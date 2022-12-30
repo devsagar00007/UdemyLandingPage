@@ -5,6 +5,10 @@ import Options from "./Options";
 import Bestsellers from "./Bestsellers";
 import Options2 from "./Options2";
 import Categories from "./Categories";
+import Featuredtopics from "./Featuredtopics";
+import Businesspartner from "./Businesspartner";
+import Features from "./Features";
+import Footer from "./Footer"
 
 export{
     Navbar,
@@ -13,5 +17,9 @@ export{
      Options,
      Bestsellers,
      Options2,
-     Categories
+     Categories,
+     Featuredtopics,
+     Businesspartner,
+     Features,
+     Footer
 };
