@@ -6,7 +6,7 @@ import { Udemylogo, searchicon , carticon , worldicon} from '../assets';
   return (
     <div >
        <div className='bg-white w-full h-[70px] flex items-center shadow-lg'>
-        <img src={Udemylogo} alt="logo" className='h-[34px] ml-6'/>
+        <img src={Udemylogo} alt="logo" className='h-[34px] ml-6 '/>
         <span className=' ml-5 text-sm cursor-pointer'>Categories</span>
         <span  className='w-[740px] h-[50px] ml-6 border-[1px] border-black rounded-3xl flex items-center'>
          <img src={searchicon} alt="search" className='h-[15px] ml-4 cursor-not-allowed' />
@@ -24,7 +24,7 @@ import { Udemylogo, searchicon , carticon , worldicon} from '../assets';
         <img src={worldicon} alt="connections" className='h-[15px] ml-[12px]'/>
         </button>
        </div>
-       <div className={`h-[150px] w-[280px] bg-white mt-1 ml-[800px] ${toggle? 'flex-col': 'hidden'}`}>
+       <div className={`h-[150px] w-[280px] bg-white mt-1 ml-[800px] ${toggle? 'visible': 'hidden'} z-10 absolute`}>
        <h1 className='font-bold text-center text-[18px]'>Get your team access to over<br></br> 19,000 top Udemy courses,<br></br> anytime, anywhere.</h1>
        <button className='bg-black h-[50px] w-[250px] text-white ml-[15px] mt-2'>Try Udemy Business</button>
        </div>

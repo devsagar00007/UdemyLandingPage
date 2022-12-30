@@ -1,9 +1,13 @@
 import React from 'react'
- import { Navbar } from './components';
+ import { Navbar,Hero,Course,Bestsellers,Categories } from './components';
  const App = () => {
   return (
     <div >
       <Navbar />
+      <Hero />
+     <Course />
+    <Bestsellers />
+    <Categories />
     </div>
   )
 }
