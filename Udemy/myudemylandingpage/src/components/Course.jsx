@@ -18,10 +18,12 @@ import Options from './Options';
             <li className='font-bold text-gray-500 hover:text-black'>Amazon AWS</li>
         </ul>
         <div className='border-gray-400 h-[100%] w-[100%] border-[1px] mt-[8px] '>
-           <div className=' h-[36%] w-[95%] flex items-center space-x-4 absolute z-0 mt-[30px] ml-[30px]'>
+           <div className=' h-[40%] w-[80%] flex  space-x-4 absolute z-0 mt-[30px] ml-[30px] overflow-hidden'>
               <Options />
               <Options />
               <Options />
+               <Options />
+               <Options />
                <Options />
                <Options />
            </div>

@@ -7,7 +7,10 @@ import { arrow } from '../assets';
         <div className=' h-[100%] w-[84%] '>
             <h1 className='font-bold text-2xl'>Students are viewing</h1>
             <div className='mt-4 w-[84%] h-[86.5%] '>
-            <div className=' h-[42.7%] w-[84%] flex justify-center space-x-5 absolute z-0'>
+            <div className=' h-[300px] w-[1274px] flex space-x-5 absolute z-0 overflow-hidden'>
+            <Options2 />
+            <Options2 />
+            <Options2 />
             <Options2 />
             <Options2 />
             <Options2 />
